@@ -2,48 +2,51 @@
 <html>
     <head>
         <title>dairy-business</title>
+        <link rel="stylesheet"type="text/css" href="index.css">
         <script src="core.js"></script>
     </head>
     <body>
-        <h1>Farm Manager</h1>
-        <h3>Input Milk Amount</h3>
-        <p id="input">
-            <form class="" action="index.html" method="post">
-                production in Shed A<input type="number" id="sa"  /><br>
-                production in Shed B<input type="number" id="sb"  /><br>
-                production in Shed C<input type="number" id="sc"  /><br>
-                production in Shed D<input type="number" id="sd"  /><br>
-                <button type="button" name="button" onclick="milkInput()">
-                    Submit
-                </button>
-            </form>
-        </p>
-        
-       <P>
-            <div id="daily"></div><br><br><hr/>
-            <div id="weekly"></div><br><br><hr/>
+        <div class="box">
+            <h1>Farm Manager</h1>
+            <h3>Input Milk Amount</h3>
+            <p id="input">
+                <form class="" action="index.html" method="post">
+                    production in Shed A<input type="number" id="sa"  /><br>
+                    production in Shed B<input type="number" id="sb"  /><br>
+                    production in Shed C<input type="number" id="sc"  /><br>
+                    production in Shed D<input type="number" id="sd"  /><br>
+                    <button type="button" name="button" onclick="milkInput()">
+                        Submit
+                    </button>
+                </form>
+            </p>
             
-            <div id="jan"></div>
-            <div id="feb"></div>
-            <div id="mar"></div>
-            <div id="apr"></div>
-            <div id="may"></div>
-            <div id="jun"></div>
-            <div id="jul"></div>
-            <div id="aug"></div>
-            <div id="sept"></div>
-            <div id="oct"></div>
-            <div id="nov"></div>
-            <div id="dec"></div><br><br><hr/>
-            <div id="anual"></div><br><br><hr/>
-            
-        </p>
-        <button type="button" name="button" onclick="price()">
-            calculate change in price
-        </button>
-        <P>
-            <div id="change"></div>
-            <div id="changes"></div><br><br><hr/>
-        </P>
+            <P>
+                <div id="daily"></div><br><br><hr/>
+                <div id="weekly"></div><br><br><hr/>
+                
+                <div id="jan"></div>
+                <div id="feb"></div>
+                <div id="mar"></div>
+                <div id="apr"></div>
+                <div id="may"></div>
+                <div id="jun"></div>
+                <div id="jul"></div>
+                <div id="aug"></div>
+                <div id="sept"></div>
+                <div id="oct"></div>
+                <div id="nov"></div>
+                <div id="dec"></div><br><br><hr/>
+                <div id="anual"></div><br><br><hr/>
+                
+            </p>
+            <button type="button" name="button" onclick="price()">
+                calculate change in price
+            </button>
+            <P>
+                <div id="change"></div>
+                <div id="changes"></div><br><br><hr/>
+            </P>
+        </div>
     </body>
 </html>

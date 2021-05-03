@@ -1,0 +1,25 @@
+h1{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white ;
+    text-align: center;
+}
+body{
+    background-image: url(cows.jpeg);
+    background-size: contain;
+
+}
+.box{
+    background-color: #0e3e21;
+    opacity: 0.8;
+    border: 10px solid red;
+    padding: 100px 60px;
+    margin: 10px;
+    color: white;
+    max-width: 700px;
+    align-content: center;
+
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
