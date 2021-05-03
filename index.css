@@ -12,13 +12,13 @@ body{
 .box{
     background-color: #0e3e21;
     opacity: 0.8;
-    border: 10px solid red;
+    border: 10px solid #85a1ef;
     padding: 100px 60px;
     margin: 10px;
     color: white;
     max-width: 700px;
     align-content: center;
-
+    border-radius: 25px ;
     
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
