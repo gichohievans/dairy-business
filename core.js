@@ -1,6 +1,13 @@
 
 
+  alert("welcome to my dairy manager");
 function milkInput() {
+    var txt;
+    if (confirm("do you want to add this data to your array?!")) {
+      txt = "You pressed OK!";
+    } else {
+      return;
+    }
     var a = parseInt(document.getElementById("sa").value);
     var b = parseInt(document.getElementById("sb").value);
     var c = parseInt(document.getElementById("sc").value);

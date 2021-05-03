@@ -1,5 +1,5 @@
 h1{
-    font-size: 25px;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white ;
     text-align: center;
@@ -23,3 +23,13 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
 }
+.btn {
+    display:block;
+    height: 30px;
+    color: #85a1ef;
+    border-radius: 50%;
+    border: 3px solid red;
+    font-weight: 800;
+    background-color: black;
+    
+  }
