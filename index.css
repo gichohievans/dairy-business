@@ -33,3 +33,10 @@ body{
     background-color: black;
     
   }
+  footer{
+      background-color: coral;
+      height: max-content;
+      font-size: x-large;
+      font-family: monospace;
+      
+  }
