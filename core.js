@@ -1,6 +1,5 @@
-
-
-  alert("welcome to my dairy manager");
+ alert("welcome to my dairy manager");
+ 
 function milkInput() {
     var txt;
     if (confirm("do you want to add this data to your array?!")) {
